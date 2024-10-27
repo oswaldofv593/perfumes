@@ -3,108 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfumes Elegantes</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Tienda de Perfumería de Lujo</title>
 </head>
 <body>
-    <!-- Encabezado -->
     <header>
-        <div class="logo">Perfumes Elegantes</div>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Tienda de Perfumería">
+        </div>
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre Nosotros</a></li>
-                <li><a href="#">Colecciones</a></li>
-                <li><a href="#">Ofertas Especiales</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="perfumes-hombres.html">Perfumes para Hombres</a></li>
+                <li><a href="perfumes-mujeres.html">Perfumes para Mujeres</a></li>
+                <li><a href="nuevos-lanzamientos.html">Nuevos Lanzamientos</a></li>
+                <li><a href="ofertas-especiales.html">Ofertas Especiales</a></li>
+                <li><a href="acerca-de.html">Acerca de</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <div class="search-cart">
+        <div class="search-bar">
             <input type="text" placeholder="Buscar...">
-            <span class="icon">🛒</span>
-            <span class="icon">👤</span>
         </div>
     </header>
 
-    <!-- Banner Principal -->
-    <section class="banner">
-        <h1>Descubre tu Fragancia Perfecta</h1>
-        <p>Una colección exclusiva de perfumes para cada ocasión</p>
-        <button class="cta-button">Explorar Colecciones</button>
-    </section>
+    <main>
+        <section class="banner">
+            <img src="images/banner.jpg" alt="Banner Principal">
+            <h1>Descubre la Elegancia de Nuestros Perfumes</h1>
+        </section>
 
-    <!-- Productos Destacados -->
-    <section class="featured-products">
-        <h2>Productos Destacados</h2>
-        <div class="product-grid">
-            <div class="product">
-                <h3>Perfume 1</h3>
-                <p>Descripción breve del perfume 1.</p>
-                <p>Precio: $50</p>
-                <button>Añadir al Carrito</button>
+        <section class="destacados">
+            <h2>Destacados</h2>
+            <div class="producto">
+                <img src="images/productos/perfume1.jpg" alt="Perfume 1">
+                <h3>Nombre del Perfume</h3>
+                <p>Descripción breve del perfume.</p>
+                <p>Precio: $100</p>
+                <button>Añadir al carrito</button>
             </div>
-            <div class="product">
-                <h3>Perfume 2</h3>
-                <p>Descripción breve del perfume 2.</p>
-                <p>Precio: $60</p>
-                <button>Añadir al Carrito</button>
-            </div>
-            <div class="product">
-                <h3>Perfume 3</h3>
-                <p>Descripción breve del perfume 3.</p>
-                <p>Precio: $70</p>
-                <button>Añadir al Carrito</button>
-            </div>
-            <div class="product">
-                <h3>Perfume 4</h3>
-                <p>Descripción breve del perfume 4.</p>
-                <p>Precio: $80</p>
-                <button>Añadir al Carrito</button>
-            </div>
-        </div>
-    </section>
+            <!-- Repetir para otros productos -->
+        </section>
+    </main>
 
-    <!-- Testimonios -->
-    <section class="testimonials">
-        <h2>Testimonios</h2>
-        <div class="testimonial-carousel">
-            <p>"Me encanta la variedad de perfumes que tienen!" - Cliente 1</p>
-            <p>"La calidad es excepcional, definitivamente volveré." - Cliente 2</p>
-            <p>"Un servicio al cliente increíble." - Cliente 3</p>
-        </div>
-    </section>
-
-    <!-- Blog -->
-    <section class="blog">
-        <h2>Blog</h2>
-        <div class="blog-posts">
-            <div class="post">
-                <h3>Entrada de Blog 1</h3>
-                <p>Resumen de la entrada de blog 1.</p>
-                <button>Leer Más</button>
-            </div>
-            <div class="post">
-                <h3>Entrada de Blog 2</h3>
-                <p>Resumen de la entrada de blog 2.</p>
-                <button>Leer Más</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Acerca de Nosotros -->
-    <section class="about">
-        <h2>Acerca de Nosotros</h2>
-        <p>Breve historia de la empresa y fotos del equipo.</p>
-    </section>
-
-    <!-- Ofertas Especiales -->
-    <section class="special-offers">
-        <h2>Ofertas Especiales</h2>
-        <p>Banner que destaque promociones actuales.</p>
-        <button class="cta-button">Ver Ofertas</button>
-    </section>
-
-    <!-- Pie de Página -->
     <footer>
-        <div class="
+        <p>&copy; 2023 Tienda de Perfumería de Lujo. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook"></a>
+            <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
+</html>
